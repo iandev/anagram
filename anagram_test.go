@@ -69,7 +69,7 @@ var tests = []testConfig{
 	},
 	testConfig{
 		str1:     "iceman",
-		str2:     "Iceman",
+		str2:     "iceman",
 		expected: true,
 	},
 	testConfig{
