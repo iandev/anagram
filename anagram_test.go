@@ -48,7 +48,7 @@ var tests = []testConfig{
 		expected: true,
 	},
 	testConfig{
-		str1:     "nnight",
+		str1:     "nnigh",
 		str2:     "thing",
 		expected: false,
 	},
@@ -66,6 +66,16 @@ var tests = []testConfig{
 		str1:     "aaaaaa",
 		str2:     "bcdefg",
 		expected: false,
+	},
+	testConfig{
+		str1:     "iceman",
+		str2:     "Iceman",
+		expected: true,
+	},
+	testConfig{
+		str1:     "qwweeerrrrtttttyyyyyyuuuuuuuiiiiiiiiooooooooopppppppppp",
+		str2:     "eeeuuuuuuuppppppppppqrrrrwwtttttoooooooooyyyyyyiiiiiiii",
+		expected: true,
 	},
 }
 
