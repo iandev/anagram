@@ -62,6 +62,11 @@ var tests = []testConfig{
 		str2:     " stressed",
 		expected: true,
 	},
+	testConfig{
+		str1:     "aaaaaa",
+		str2:     "abcdef",
+		expected: false,
+	},
 }
 
 func TestAnagram(t *testing.T) {
